@@ -1,0 +1,126 @@
+html, body{
+  overflow-x: hidden;
+}
+
+/* .navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999; 
+  padding: 10px;
+} */
+
+.bg-image {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url("images/walk.png") center/cover no-repeat;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.custom-navbar .navbar-toggler {
+  background-color: #ffffff !important;
+  border: none !important;
+}
+
+
+
+
+.custom-navbar .nav-link,
+.custom-navbar .nav-link.active {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+
+
+.custom-navbar .nav-link:hover{
+  color: hsl(0, 100%, 50%) !important;
+}
+
+
+
+.custom-navbar{
+  background-color: #0B1F3A;
+  
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.reveal.active {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+
+.c-img{
+  width: 50px;
+  height: 50px;
+
+}
+
+.h3{
+  font-size: 17px;
+  
+}
+
+.text{
+  font-size: 15px;
+  position: relative;
+  bottom: 2px;
+}
+
+@keyframes scroll{
+    from {
+        transform: translateX(500px);
+    }
+    to {
+        transform: translateX(-90rem);
+    }
+}
+
+.scroll{
+    animation: scroll 15s linear 1s infinite;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.background{
+  background-color: #0B1F3A;
+}
+
+.box{
+  margin: 3rem 0;
+}
+
+.c-img2 {
+  border: none !important;
+  border-radius: 10px !important;
+}
+
+.c-img1 {
+  border: none !important;
+  border-radius: 50% !important;
+}
+
+.c-img3 {
+  border: none !important;
+  border-radius: 20px !important;
+}
+
+.section3{
+  margin: 3rem 0;
+}
+
+.bio{
+  font-size: 13px;
+}
