@@ -132,7 +132,7 @@ html, body{
 }
 
 .section4{
-  margin: 30px;
+  margin: 50px 20px;
 }
 
 #whatsapp{
@@ -186,6 +186,7 @@ footer a:hover{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
