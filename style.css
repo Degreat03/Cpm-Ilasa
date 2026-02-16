@@ -116,6 +116,12 @@ html, body{
   border-radius: 20px !important;
 }
 
+.section-divider {
+  height: 1px;
+  background: #ddd;
+  margin: 60px 0;
+}
+
 .section3{
   margin: 7rem 0;
 }
@@ -180,4 +186,5 @@ footer a:hover{
     pointer-events: auto;
     opacity: 1;
 }
+
 
