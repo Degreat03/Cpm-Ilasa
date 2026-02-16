@@ -154,3 +154,19 @@ footer a:hover{
   line-height: 2;
 }
 
+.to-top{
+    font-size: 3rem;
+    /* color: #f6099b; */
+    color: red;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.to-top.active{
+    pointer-events: auto;
+    opacity: 1;
+}
