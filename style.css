@@ -98,7 +98,7 @@ html, body{
 }
 
 .box{
-  margin: 7rem 0;
+  margin: 3rem 0;
 }
 
 .c-img2 {
@@ -123,7 +123,7 @@ html, body{
 }
 
 .section3{
-  margin: 7rem 0;
+  margin:  0;
 }
 
 .bio{
@@ -186,5 +186,6 @@ footer a:hover{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
