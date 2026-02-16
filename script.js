@@ -1,19 +1,11 @@
-const toggleBtn = document.getElementById("toggleBtn");
-const result = document.getElementById("result");
+const toTop = document.querySelector(".to-top")
 
-toggleBtn.addEventListener("click", function () {
-
-    // Switch icons
-    this.classList.toggle("bi-plus-lg");
-    this.classList.toggle("bi-dash-lg");
-
-    // Check which icon is active
-    if (this.classList.contains("bi-dash-lg")) {
-        result.textContent = "Hello dwduiwiffuiddoifiofefjifefhfiewfweofwofwfifjeifefijeiefjiejfiefefefefiehfcifeccccchichcijcnocjoic jcococciochiechchcicidcicjiejfepfoefpefefejfejfeiofejfoeejfoejfif";
-        result.style.backgroundColor = "gray";
-        result.style.width = "50rem"
-    } else {
-        result.textContent = "";
+window.addEventListener("scroll", function(){
+    if (this.window.pageYOffset > 100) {
+        toTop.classList.add("active");
+    } else{
+        toTop.classList.remove("active");
     }
 });
+
 
